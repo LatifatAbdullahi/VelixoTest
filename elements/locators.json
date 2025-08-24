@@ -1,0 +1,36 @@
+{
+    "homepage": {
+
+        "createBlankWorkbookButton": "0300",
+        "signInButton": "0100" 
+    },
+    "signInPage": {
+        "microsoftModal": "#lightbox",
+        "emailField": "[name='loginfmt']",
+        "submitButton": "#submit-button",
+        "nextButton": "#idSIButton9",
+        "passwordModal": "banner",
+        "useYourPassword":"[role='button']",
+        "passwordField": "#passwordEntry",
+        "signInButton": "primaryButton" ,
+        "staySignedModal": "#view",
+        "noOptionButton": "secondaryButton"
+    },
+
+    "excelPage": {
+        "homeTab": "#Home",
+        "iframeRoot": "iframe[title='Office on the web Frame']",
+        "formulaTab": "#formulaBarTextDivId_textElement>.ewa-rteLine",
+        "formulaInput": "#formulaBarTextDivId_textElement>.ewa-rteLine",
+        "promptModal": "dialog",
+        "columnHeader": "[style='left: 0px; width: 47px;']",
+        "firstCell": "div#m_excelWebRenderer_ewaCtl_selectionHighlight0-1-0>:nth-of-type(1)"
+       
+    }
+
+
+
+
+
+
+}
