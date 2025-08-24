@@ -20,9 +20,9 @@ To run the project locally, do the following:
 `git clone https://github.com/LatifatAbdullahi/VelixoTest.git` and hit the Enter button
 - Navigate into the project and run `npm install`
 - Install browsers with `npx playwright install`
-- Add a ".env" file which will contain the TEST_EMAIL and TEST_PASSWORD
-    TEST_EMAIL=add email here
-    TEST_PASSWORD=add password here
+- Add a ".env" file which will contain the TEST_EMAIL and TEST_PASSWORD as listed below;
+    - TEST_EMAIL=add email here
+    - TEST_PASSWORD=add password here
 - Run the test with `npx playwright test`
 - Generate an html report with `npx playwright show-report`
 
