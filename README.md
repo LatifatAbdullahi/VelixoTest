@@ -21,6 +21,8 @@ To run the project locally, do the following:
 - Navigate into the project and run `npm install`
 - Install browsers with `npx playwright install`
 - Add a ".env" file which will contain the TEST_EMAIL and TEST_PASSWORD
+    TEST_EMAIL=add email here
+    TEST_PASSWORD=add password here
 - Run the test with `npx playwright test`
 - Generate an html report with `npx playwright show-report`
 
@@ -39,7 +41,7 @@ To run the project locally, do the following:
 
 
 * A Valid Test cases
-    Verifying the =TODAY() returns the current date
+   - Verifying the =TODAY() returns the current date
 
 
    
@@ -49,13 +51,6 @@ To run the project locally, do the following:
 
 [Question 1- Algorithm Test cases](https://docs.google.com/spreadsheets/d/1_vgWwwmA8xLKdGkX2hmabAdic_neSyr9/edit?usp=drive_link&ouid=109334919897706172290&rtpof=true&sd=true)
 
-
-
-
-###  Bug Report
-
-
-[Pulsate Bug Report](https://docs.google.com/spreadsheets/d/188-F3VsiUEU0mbUPQ1I6AQpVvagaRWu5/edit?usp=drive_link&ouid=109334919897706172290&rtpof=true&sd=true)
 
 
 
