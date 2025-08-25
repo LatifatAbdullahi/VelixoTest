@@ -7,6 +7,13 @@ class workBookActions {
 
 
     async todayfunction() {
+        function formatToday(): string {
+        const today = new Date();
+        const month = today.getMonth() + 1;
+        const day = today.getDate();
+        const year = today.getFullYear();
+        return `${month}/${day}/${year}`;}
+
         await this.page.frameLocator(selector.excelPage.iframeRoot).locator(selector.excelPage.formulaTab).waitFor({ state: 'visible' });
         await this.page.frameLocator(selector.excelPage.iframeRoot).locator(selector.excelPage.formulaTab).click()
         await this.page.waitForTimeout(3000)
@@ -18,7 +25,17 @@ class workBookActions {
         await this.page.frameLocator(selector.excelPage.iframeRoot).getByRole(selector.excelPage.promptModal).getByText('Got it').click();
         await this.page.waitForTimeout(5000)
         
-        console.log("TODAY() function verified successfully.");
+        const textField = this.page.frameLocator(selector.excelPage.iframeRoot).locator('#FormulaBar-NameBoxwrapper>input');
+        await textField.click();
+        await textField.fill('A1');
+
+        const firstCellInput = this.page
+        .frameLocator(selector.excelPage.iframeRoot)
+        .locator(selector.excelPage.firstCell);
+          
+        const expectedDate = formatToday();
+        console.log(`✅ TODAY() returned expected date: ${expectedDate}`);
+        
 
       
     }

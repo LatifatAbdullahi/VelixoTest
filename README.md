@@ -52,6 +52,8 @@ To run the project locally, do the following:
 [Question 1- Algorithm Test cases](https://docs.google.com/spreadsheets/d/1_vgWwwmA8xLKdGkX2hmabAdic_neSyr9/edit?usp=drive_link&ouid=109334919897706172290&rtpof=true&sd=true)
 
 
+### Demo recording for Automated Test
 
+[Demo Recording](https://www.loom.com/share/4ee930ead55e4fef87ceb0c610737ec8?sid=e6fec2bb-608a-4611-97d1-cfb5737dd62c)
 
 
